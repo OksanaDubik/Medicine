@@ -2,9 +2,727 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>medicine</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap"
+          rel="stylesheet">
+    <title>Medicine</title>
 </head>
 <body>
-!
+<div class="wrapper">
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-info">
+                    <div class="header__top-text">
+                        <p>Регистратура Поликлиники - 8 (3812) 95-14-02</p>
+                        <p>Регистратура Поликлиники No2 - 8 (3812) 95-14-03</p>
+                    </div>
+                    <div class="header__top-social">
+                        <a href=""><img class="wk" src="images/header/social/wk.png" width="36" alt="wk"></a>
+                        <a href=""><img class="tgr" src="images/header/social/tgr.png" width="36"
+                                        alt="telegram"></a>
+                        <a href=""><img class="ok" src="images/header/social/ok.png" width="36" alt="OK"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="container">
+                <div class="header__middle-content">
+                    <div class="header__middle-logo">
+                        <img src="images/header/logo.png" width="153" alt="logo">
+                        <div class="header__middle-name">
+                            <p>Бюджетное учреждение здравоохранения </p>
+                            <p>Омской области</p>
+                            <p>«Медико-санитарная часть No 4»</p>
+                        </div>
+                    </div>
+                    <div class="header__middle-info">
+                        <div class="header__middle-translation">
+                            <form action="#">
+                                <div class="header__form">
+                                    <label class="header__language" for="submit">
+                                        <img src="images/header/label.png" alt="label">
+                                        <input id="submit" value="Перевести ">
+                                    </label>
+                                    <select name="language" id="language" type="checkbox">
+                                        <option value="RU">RU</option>
+                                        <option value="EN">EN</option>
+                                        <option value="中文">中文</option>
+                                    </select>
+                                </div>
+
+                                <br>
+                                <p class="yandex"><label for="language">Яндекс Переводчик</label></p>
+                            </form>
+                        </div>
+                        <div class="header__middle-links">
+                            <a href="#">ЗАПИСАТЬСЯ НА ПРИЕМ</a>
+                            <a href="#">ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ</a>
+                            <a href="#">КАРТА САЙТА</a>
+                        </div>
+                        <div class="header__middle-phone">
+                            <img src="images/header/phone.jpg" alt="phone">
+                            <div class="header__middle-phone__txt">
+                                <p>телефоны стационара</p>
+                                <button>СМОТРЕТЬ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="navbar">
+                    <div class="dropdown">
+                        <button class="dropbtn"> О БОЛЬНИЦЕ
+                            <img src="images/header/mark.svg" alt="mark">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">СТАЦИОНАР
+                            <img src="images/header/mark.svg" alt="">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">ПОЛИКЛИИКА
+                            <img src="images/header/mark.svg" alt="">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">ДОКУМЕНТЫ
+                            <img src="images/header/mark.svg" alt="">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">ПЛАТНЫЕ УСЛГУИ
+                            <img src="images/header/mark.svg" alt="">
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">ИНФОРМАЦИЯ ДЛЯ ПАЦИЕНТОВ
+
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn"> КОНТАКТЫ
+
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Ссылка 1</a>
+                            <a href="#">Ссылка 2</a>
+                            <a href="#">Ссылка 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-navbar">
+                    <div class="subnav">
+                        <button class="subnavbtn">О БОЛЬНИЦЕ </i></button>
+
+                        <div class="subnav-content">
+                            <div class="dropdown">
+                                <button class="dropbtn">СТАЦИОНАР
+                                    <img src="images/header/mark.svg" alt="">
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">ПОЛИКЛИИКА
+                                    <img src="images/header/mark.svg" alt="">
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">ДОКУМЕНТЫ
+                                    <img src="images/header/mark.svg" alt="">
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subnav">
+                        <button class="subnavbtn">ИНФОРМАЦИЯ ДЛЯ ПАЦИЕНТОВ</button>
+                        <div class="subnav-content">
+                            <div class="dropdown">
+                                <button class="dropbtn">ДОКУМЕНТЫ
+                                    <img src="images/header/mark.svg" alt="">
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">ПЛАТНЫЕ УСЛГУИ
+                                    <img src="images/header/mark.svg" alt="">
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">ИНФОРМАЦИЯ ДЛЯ ПАЦИЕНТОВ
+
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn"> КОНТАКТЫ
+
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#">Ссылка 1</a>
+                                    <a href="#">Ссылка 2</a>
+                                    <a href="#">Ссылка 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <div class="bg"><img src="images/bg.jpg" alt="photo"></div>
+            <div class="container">
+
+                <h2>ОТДЕЛЕНИЯ</h2>
+                <div class="services__cards">
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-1.jpg" alt="Стационар">
+                                <h3>Стационар</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Хирургия</a></li>
+                        <li><a href="">Травматология и ортопедия</a></li>
+                        <li><a href="">Терапия</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-2.jpg" alt="Поликлиника">
+                                <h3>Поликлиника</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Хирургическое отделение</a></li>
+                        <li><a href="">Терапевтическое отделение </a></li>
+                        <li><a href="">Стоматологическое отделение </a></li>
+                        <li><a href="">Зубопротезное отделение</a></li>
+                        <li><a href="">Дневной стационар</a></li>
+                        <li><a href="">Фониатрический центр</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-3.jpg" alt="Диагностика">
+                                <h3>Диагностика</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Рентгеновское отделение</a></li>
+                        <li><a href="">Эндоскопическое отделение</a></li>
+                        <li><a href="">УЗИ и функциональная Диагностика
+                            лаборатория
+                        </a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-4.jpg" alt="Лаборатория">
+                                <h3>Лаборатория</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Клинико-диагностическая лаборатория
+                        </a></li>
+                        <li><a href="">Микробиологическая лаборатория</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-5.jpg" alt="Филиалы">
+                                <h3>Филиалы</h3>
+                            </div>
+                        </li>
+                        <li><a href="">ЦВТ "Русь"</a></li>
+                        <li><a href="">ЦВТ "Зеленая Роща"</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-6.jpg" alt="Реабилитация">
+                                <h3>Реабилитация</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Соматическая реабилитация</a></li>
+                        <li><a href="">Травматология-ортопедия</a></li>
+                        <li><a href="">Неврология</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/icon-7.jpg" alt="Медкомиссии">
+                                <h3>Медкомиссии</h3>
+                            </div>
+                        </li>
+                        <li><a href="">Шоферская</a></li>
+                        <li><a href="">Оружейная частного охранника </a></li>
+                        <li><a href="">Профосмотры</a></li>
+                        <li><a href="">Справка на гос. службу (форма No 001-ГС/У)</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="services__cards-content">
+                                <img src="images/registerIcons/" alt="">
+                                <h3></h3>
+                            </div>
+                        </li>
+                        <li><a href="">Оружейная</a></li>
+                        <li><a href="">Санитарные книжки</a></li>
+                        <li><a href="">Диспансеризация</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__image">
+                        <img class="about__image2" src="images/about/about2.jpg" alt="about us">
+                        <img class="about__image1" src="images/about/about1.jpg" alt="about us">
+                        <img class="about__image4" src="images/about/about4.jpg" alt="about us">
+                        <img class="about__image3" src="images/about/about3.jpg" alt="about us">
+                    </div>
+                    <div class="about__descr">
+                        <p class="about__descr-header">Кто мы</p>
+                        <h1>Добро пожаловать в </h1>
+                        <br>
+                        <h1 class="about__descr-underline">МСЧ 4</h1>
+                        <hr>
+                        <p class="about__descr-text">История организации бюджетного учреждения здравоохранения &laquo;Медико-санитарной
+                            части No&nbsp;4&raquo;
+                            начинается в&nbsp;сороковых годах двадцатого века, когда на&nbsp;территории
+                            паровозо-вагонного
+                            ремонтного завода существовал врачебный участок, который
+                            входил в&nbsp;структуру врачебно- санитарного
+                            управления станции Омск. Во&nbsp;время Великой
+                            Отечественной войны, при эвакуации предприятий из
+                            Ленинграда, Волгограда, Запорожья, завод начал
+                            стремительно расти, и&nbsp;вместе с&nbsp;ним развивалась медицинская служба. Как видно из&nbsp;книги
+                            приказов по&nbsp;личному составу, в&nbsp;1942 году уже существовала поликлиника завода No&nbsp;174,
+                            два врачебных здравпункта в&nbsp;цехах No&nbsp;5&nbsp;и&nbsp;No&nbsp;12, а&nbsp;также
+                            врачебный
+                            здравпункт в&nbsp;поселке имени Буденного, в&nbsp;котором
+                            получали мединскую помощь взрослое и&nbsp;детское население</p>
+                        <button>ПОДРОБНЕЕ</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="video">
+            <div class="video__img">
+                <img class="video__img-photo" src="images/video/bgVideo.jpg" alt="video">
+                <img class="video__img-border" src="images/video/iconVideo1.jpg" alt="video">
+
+            </div>
+            <div class="video__descr">
+                <h2>Диспансеризация</h2>
+                <div class="video__descr-underline">
+                    <hr class="video__descr-underline-blue">
+                    <hr class="video__descr-underline-dark">
+                </div>
+                <p class="video__descr-text">Мы&nbsp;приглашаем Вас на&nbsp;профилактический МЕДИЦИНСКИЙ ОСМОТР и&nbsp;ДИСПАНСЕРИЗАЦИЮ
+                    с&nbsp;понедельника
+                    по&nbsp;пятницу с&nbsp;08.00 до&nbsp;20.00 часов в&nbsp;летнее время и&nbsp;с&nbsp;08.00 до&nbsp;19.00
+                    часов в&nbsp;зимнее время, а&nbsp;также в&nbsp;первую субботу каждого месяца с&nbsp;09.00 до&nbsp;14.00&nbsp;часов,
+                    т.е. Вы&nbsp;теперь можете в&nbsp;вечернее время и&nbsp;в&nbsp;субботу запланировать и&nbsp;пройти
+                    необходимые обследования в&nbsp;максимально короткие сроки (1-3&nbsp;дня), Более подробную
+                    информацию можно получить по&nbsp;ссылке Напоминаем, что все диагностические обследования и&nbsp;осмотры
+                    в&nbsp;рамках диспансеризации бесплатны для Вас. Позаботьтесь о&nbsp;своем здоровье!</p>
+                <div class="video__descr-table">
+                    <img src="images/video/iconVideo3.png" alt="iconVideo">
+                    <div class="video__descr-timetable">
+                        <div class="video__descr-timetable__text">
+                            <p class="video__descr-week">с понедельника по пятницу</p>
+                            <p>с 08.00 до 20.00 часов в летнее время и с 08.00 до 19.00 часов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback-content">
+                    <div class="feedback__lincks">
+                        <h2>Мы ценим обратную связь</h2>
+                        <div class="feedback__lincks-btns">
+                            <a href="" class="feedback-btn"><img src="images/feedback/feedbackIcon1.jpg" alt="Icon">
+                                <p>благодарности</p>
+                            </a>
+                            <a href="" class="feedback-btn"><img src="images/feedback/feedbackIcons2.jpg" alt="Icon">
+                                <p>обращения</p>
+                            </a>
+                            <a href="" class="feedback-btn"><img src="images/feedback/feedbackIcons3.jpg" alt="Icon">
+                                <p>вопрос-ответ</p>
+                            </a>
+                        </div>
+                        <div class="feedback__diskr">
+                            <img src="images/feedback/feedback.jpg" alt="photo">
+                            <p>Здесь собраны все способы обращений в МСЧ 4, для улучшения качества</p>
+                        </div>
+                    </div>
+                    <div class="container__form">
+                        <form action="#" name="form1" class="feedback__form">
+                            <div class="row__form">
+                                <h3>Задать вопрос</h3>
+                                <label class="formName" for="fname"><i class="fa fa-user"></i></label>
+                                <input type="text" id="fname" name="firstname" placeholder="ФИО">
+                                <label class="forEmail" for="email"><i class="fa fa-envelope"></i></label>
+                                <input type="text" id="email" name="email" placeholder="Email*">
+                                <label class="forPhone" for="phone"><i class="fa fa-institution"></i></label>
+                                <input type="tel" id="phone" name="phone" placeholder="Телефон">
+                                <label class="textarea" for="textarea"><i class="fa fa-institution"></i></label>
+                                <textarea id="textarea" name="textarea" placeholder="Задать вопрос"></textarea>
+                            </div>
+                            <input type="submit" value="ОТПРАВИТЬ" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback-footer">
+            <div class="container">
+                <div class="feedback__lincks-drop">
+                    <div class="feedback__lincks-drop__col1"><img src="images/feedback/feedbackIcon4.jpg" alt="Icon">
+                        <div>
+                            <p>Have any Question? </p>
+                            <p class="feedback__lincks-text">Самообследование</p>
+                        </div>
+                    </div>
+                    <div class="feedback__lincks-drop__col2"><img src="images/feedback/feedbackIcon5.jpg" alt="Icon">
+                        <p class="feedback__lincks-text">Независимая оценка качества</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="news__heading-bg">
+                <div class="container">
+                    <div class="news__heading">
+                        <img src="images/feedback/feedbackIcon6.jpg" alt="icon">
+                        <h2>НОВОСТИ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="news__col news__col1">
+                            <h3>Напоминаем вам</h3>
+                            <p>1&nbsp;сентября 2022&nbsp;г.&nbsp;в&nbsp;составе МСЧ 4&nbsp;открылось отделение
+                                рентгенохирургических диагностики и&nbsp;лечения (РХМДил).</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news__col news__col2">
+                            <h3>С приходом ХОЛОДОВ</h3>
+                            <p>С&nbsp;приходом холодов в&nbsp;омские больницы все чаще поступают пациенты с&nbsp;обморожениями.
+                                При этом наиболее уязвимы нос, ушные раковины, пальцы кистей и&nbsp;стоп. Об&nbsp;этом
+                                рассказал заместитель главного врача МСЧ No&nbsp;4&nbsp;по&nbsp;хирургии Александр
+                                Завьялов.</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news__col news__col3">
+                            <div class="news__col3-emblem">
+                                <img src="images/news/emblem.jpg" alt="emblem">
+                                <p class="news__col3-heading">Портал независимой оценки качества условий
+                                    оказания услуг медицинскими организациями
+                                </p>
+                            </div>
+                            <hr>
+                            <h3>Омская область</h3>
+                            <p class="news__col3-quest">АНКЕТА для оценки качества условий
+                                оказания услуг
+                                медицинскими
+                                организациями в
+                                амбулаторных условиях</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news__col news__col1">
+                            <h3>Напоминаем вам</h3>
+                            <p>1&nbsp;сентября 2022&nbsp;г.&nbsp;в&nbsp;составе МСЧ 4&nbsp;открылось отделение
+                                рентгенохирургических диагностики и&nbsp;лечения (РХМДил).</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news__col news__col1">
+                            <h3>Напоминаем вам</h3>
+                            <p>1&nbsp;сентября 2022&nbsp;г.&nbsp;в&nbsp;составе МСЧ 4&nbsp;открылось отделение
+                                рентгенохирургических диагностики и&nbsp;лечения (РХМДил).</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="news__col news__col1">
+                            <h3>Напоминаем вам</h3>
+                            <p>1&nbsp;сентября 2022&nbsp;г.&nbsp;в&nbsp;составе МСЧ 4&nbsp;открылось отделение
+                                рентгенохирургических диагностики и&nbsp;лечения (РХМДил).</p>
+                            <div class="news__col-date">
+                                <div class="news__col-date__text">
+                                    <img src="images/news/clock.jpg" alt="clock">
+                                    <p>2022-12-22</p>
+                                </div>
+                                <button>Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="news__swiper-bg" style="background-color: #ffffff; padding: 44px 0 30px">
+                <div class="swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="news__slider-link1"><a href=""><img src="images/slider/slider1.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="news__slider-link2"><a href=""><img src="images/slider/slider2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="news__slider-link3"><a href=""><img src="images/slider/slider3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="news__slider-link2"><a href=""><img src="images/slider/slider2.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="news__slider-link3"><a href=""><img src="images/slider/slider3.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section class="problems">
+            <div class="problems__btn">
+                <h4>Недовольны работой больницы?</h4>
+                <button>Написать о проблеме</button>
+            </div>
+            <div class="problems__bg">
+                <div class="problems__abbr">
+                    <div class="abbr">
+                        <abbr>ГОС</abbr>
+                        <p class="problems__bg-abbr">УСЛУГИ</p>
+                    </div>
+                    <p class="problems__bg-txt">Решаем вместе</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__col1">
+                <h3>КОНТАКТЫ</h3>
+                <hr>
+                <p class="footer__heading">БУЗОО "МСЧ-4"</p>
+                <div class="footer__col-map">
+                    <img src="images/footer/map.jpg" alt="map">
+                    <p>г. Омск, Воровского, 62/1</p>
+                </div>
+                <div class="footer__col-tel">
+                    <img src="images/footer/tel.jpg" alt="phone">
+                    <p>8(3812) 46-96-20 справочная</p>
+                </div>
+                <div class="footer__col-tel">
+                    <p>8(3812) 46-90-50 приемное отделение </p>
+                    <p>8(3812)95-14-02 регистратура</p>
+                </div>
+                <div class="footer__col-mail">
+                    <img src="images/footer/mail.jpg" alt="mail">
+                    <p>msch-4@mail.ru</p>
+                </div>
+                <p class="footer__heading">Поликлиника МСЧ No4</p>
+                <div class="footer__col-map"><img src="images/footer/map.jpg" alt="map">
+                    <p>г. Омск, Воровского, 62/1</p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8(3812) 95-14-02 - регистратура </p>
+                </div>
+                <p>8(3812)95-14-02 вызов врача на дом</p>
+
+                <p class="footer__heading">Поликлиника No2 МСЧ No4</p>
+                <div class="footer__col-map"><img src="images/footer/map.jpg" alt="map">
+                    <p>г. Омск, Академика Павлова, д.29 </p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8(3812) 95-14-03-регистратура </p>
+                    <p>8(3812)95-14-03 вызов врача на дом</p>
+                </div>
+            </div>
+            <div class="footer__col2">
+                <h3>ВЫШЕСТОЯЩИЕ
+                    ОРГАНЫ
+                </h3>
+                <hr>
+                <p class="footer__heading">1. Территориальный орган Федеральной службы по надзору в сфере
+                    здравоохранения по Омской области</p>
+                <div class="footer__col-map"><img src="images/footer/map.jpg" alt="map">
+                    <p>Сенная ул., 22, Омск, Омская обл.,
+                        644024
+                    </p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8 (381) 220-11-04</p>
+                </div>
+                <p class="footer__heading">Управления Роспотребнадзора по Омской
+                    области
+                </p>
+                <div class="footer__col-map">
+                    <img src="images/footer/map.jpg" alt="map">
+                    <p>ул. 10 лет Октября, 98, Омск, Омская обл. 644001</p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8 (381) 232-60-26</p>
+                </div>
+
+                <p class="footer__heading">Министерство здравоохранения Омской
+                    Области
+                </p>
+                <div class="footer__col-map">
+                    <img src="images/footer/map.jpg" alt="map">
+                    <p>ул. Красный Путь, 6, Омск, Омская обл.,
+                        644043
+                    </p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8 (381) 223-35-25</p>
+                </div>
+            </div>
+            <div class="footer__col3">
+                <h3>ЦЕНТР ЗДОРОВЬЯ</h3>
+                <hr>
+                <p class="footer__heading">Общая информация о центре здоровья</p>
+                <div class="footer__col-map"><img src="images/footer/map.jpg" alt="map">
+                    <p>г. Омск, Воровского, 62/1, БУЗОО «МСЧ
+                        No4» поликлиника
+                    </p>
+                </div>
+                <div class="footer__col-tel"><img src="images/footer/tel.jpg" alt="phone">
+                    <p>8(3812) 46-96-22</p>
+                </div>
+            </div>
+            <div class="footer__col4">
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="slider.js"></script>
 </body>
 </html>

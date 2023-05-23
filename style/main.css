@@ -4,9 +4,11 @@ html, body {
     height: 100%;
     width: 100vw;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
+
 main {
     flex-grow: 1;
 }
@@ -201,6 +203,7 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
+
 /*************************/
 nav {
     background-color: #001959;
@@ -236,7 +239,6 @@ nav {
     border: none;
     outline: none;
     color: white;
-    /*padding: 14px 16px;*/
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -363,7 +365,7 @@ main {
 
 .about__descr {
     width: 45%;
-     margin: 40px -50px 0 0;
+    margin: 40px -50px 0 0;
 }
 
 .about__descr p {
@@ -398,6 +400,9 @@ main {
     margin-top: 45px;
     text-transform: uppercase;
     font-size: 12px;
+}
+.about__descr button:hover{
+    background-color: #00113d;
 }
 
 /*video*/
@@ -604,6 +609,7 @@ textarea {
 .btn:hover {
     background-color: #FFFFFF;
     cursor: pointer;
+    color: #192136;
 }
 
 .invalid {
@@ -665,10 +671,20 @@ textarea {
 }
 
 .swiper {
-    width: 70%;
+    width: 96%;
     height: 100%;
-    margin: 0 15%;
+    margin: 0 1%;
 }
+
+.swiper-horizontal.swiper-css-mode > .swiper-wrapper {
+    width: 90%;
+}
+
+/*.swiper-css-mode > .swiper-wrapper > .swiper-slide {*/
+/*    scroll-snap-align: center center;*/
+/*    width: 33.33% ! important;*/
+/*    margin-right: 10px;*/
+/*}*/
 
 .swiper-slide {
 
@@ -756,6 +772,10 @@ textarea {
     color: #ffffff;
     text-align: left;
     padding: 5% 15%;
+}
+.problems__btn button:hover{
+    background-color: #233c6c;
+    color: #ffffff;
 }
 
 .problems__btn button {
@@ -940,6 +960,10 @@ footer > .container {
         flex-direction: column;
     }
 
+    .header__top-social {
+        width: 13%;
+    }
+
     .about__descr {
         margin: 70% 0 0 0;
     }
@@ -954,6 +978,21 @@ footer > .container {
 
     .about__image4 {
         left: 800px;
+    }
+
+    .feedback__lincks {
+        padding-right: 0px;
+    }
+
+    .feedback__lincks-drop {
+        width: 69%;
+    }
+
+
+    .problems__abbr {
+        width: 18%;
+        margin-top: 174px;
+        margin-right: 12%;
     }
 
     .services__cards {
@@ -1241,6 +1280,10 @@ footer > .container {
 }
 
 @media (max-width: 320px) {
+    .header__top-social > a {
+        padding-left: 5%;
+    }
+
     .yandex {
         margin: 4px 0 0 45%;
     }
@@ -1251,8 +1294,22 @@ footer > .container {
         flex-direction: column;
     }
 
+    .about__descr hr {
+        width: 135px;
+        margin: -12px 90px 11px;
+    }
+
+    .news__col {
+        padding-bottom: 40%;
+    }
+
+    .swiper-horizontal.swiper-css-mode > .swiper-wrapper {
+        width: 100%;
+    }
+
     footer > .container {
-        grid-template-columns: repeat(1, 100%);
+        color: #ffffff;
+        display: block;
     }
 }
 

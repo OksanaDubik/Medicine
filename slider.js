@@ -1,7 +1,7 @@
-if (document.documentElement.clientWidth <= 425) {
+if (document.documentElement.clientWidth <= 768) {
     let swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 10,
         freeMode: true,
         cssMode: true,
         navigation: {
@@ -15,7 +15,7 @@ if (document.documentElement.clientWidth <= 425) {
 } else {
     let swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 10,
         freeMode: true,
         cssMode: true,
         navigation: {
